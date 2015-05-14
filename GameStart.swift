@@ -281,7 +281,7 @@ class GameStart: SKScene, SKPhysicsContactDelegate {
      *  Zachycení dotyku. Podle pozice dotyku zavolá metodu která posune obrazec daným směrem.
     *   @blindTouch: Řeší problém kdy se hodnata BOOL nepřepla a žabák stojí na místě.
     */
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         
         for touch: AnyObject in touches {
             let location = touch.locationInNode(self)

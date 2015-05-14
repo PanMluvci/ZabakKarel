@@ -37,7 +37,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
     }
 
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         runAction(SKAction.sequence([
             SKAction.waitForDuration(0.5),
             SKAction.runBlock() {
