@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  ZabakKarel
 //
-//  Created by Josef Antoni on 05.01.15.
-//  Copyright (c) 2015 Josef Antoni. All rights reserved.
+//  Created by Josef Antoni on 05.11.14.
+//  Copyright (c) 2014 Josef Antoni. All rights reserved.
 //
 
 import UIKit
@@ -33,15 +33,15 @@ class GameViewController: UIViewController {
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.
             let skView = self.view as SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
+            skView.showsFPS = false
+            skView.showsNodeCount = false
+
             /* Sprite Kit applies additional optimizations to improve rendering performance */
             skView.ignoresSiblingOrder = true
-            
+            scene.backgroundColor = UIColor(red: 151/255, green: 186/255, blue: 255/255, alpha: 1.0)
             /* Set the scale mode to scale to fit the window */
             scene.scaleMode = .AspectFill
-            
+            scene.size = skView.bounds.size
             skView.presentScene(scene)
         }
     }

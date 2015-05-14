@@ -2,44 +2,51 @@
 //  GameScene.swift
 //  ZabakKarel
 //
-//  Created by Josef Antoni on 05.01.15.
-//  Copyright (c) 2015 Josef Antoni. All rights reserved.
+//  Created by Josef Antoni on 05.11.14.
+//  Copyright (c) 2014 Josef Antoni. All rights reserved.
 //
-
+// 
 import SpriteKit
+import AVFoundation
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
+
+
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
-        self.addChild(myLabel)
+        let menuImage = SKSpriteNode(imageNamed: "title")
+        menuImage.setScale(0.65)
+        
+        //menuImage.size.height = self.size.height
+        menuImage.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
+        
+        self.addChild(menuImage)
+        
+        backgroundColor = SKColor.whiteColor()
+        var message = "Tapni pro start :-)"
+        
+        self.backgroundColor = UIColor(red: 151/255, green: 186/255, blue: 255/255, alpha: 1.0)
+        let label = SKLabelNode(fontNamed: "Chalkduster")
+        label.text = message
+        label.fontSize = 40
+        label.fontColor = SKColor.blackColor()
+        label.position = CGPoint(x: size.width/2, y: size.height/5.5)
+        addChild(label)
+        
+        
+        
     }
-    
+
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        /* Called when a touch begins */
-        
-        for touch: AnyObject in touches {
-            let location = touch.locationInNode(self)
-            
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-            
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
-            
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
+        runAction(SKAction.sequence([
+            SKAction.waitForDuration(0.5),
+            SKAction.runBlock() {
+                let reveal = SKTransition.flipHorizontalWithDuration(0.5)
+                let scene = GameStart(size: self.size)
+                self.view?.presentScene(scene, transition:reveal)
+                scene.backgroundColor = UIColor(red: 151/255, green: 186/255, blue: 255/255, alpha: 1.0)
+                
+            }
+            ]))
         }
-    }
-   
-    override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
-    }
 }

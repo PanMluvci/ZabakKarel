@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC08E2B01A5AE84B000B8A15 /* Karel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08E2AF1A5AE84B000B8A15 /* Karel.swift */; };
+		CC08E2B21A5AE858000B8A15 /* zabak.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CC08E2B11A5AE858000B8A15 /* zabak.atlas */; };
+		CC08E2B41A5AE863000B8A15 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08E2B31A5AE863000B8A15 /* Platform.swift */; };
+		CC08E2B61A5AE887000B8A15 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08E2B51A5AE887000B8A15 /* GameOverScene.swift */; };
+		CC08E2BA1A5AE8AD000B8A15 /* smb2_jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = CC08E2B81A5AE8AD000B8A15 /* smb2_jump.wav */; };
 		CC3921631A5AE78B00BFC1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3921621A5AE78B00BFC1B3 /* AppDelegate.swift */; };
 		CC3921651A5AE78B00BFC1B3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC3921641A5AE78B00BFC1B3 /* GameScene.sks */; };
 		CC3921671A5AE78B00BFC1B3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3921661A5AE78B00BFC1B3 /* GameScene.swift */; };
@@ -15,6 +20,9 @@
 		CC39216E1A5AE78B00BFC1B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC39216D1A5AE78B00BFC1B3 /* Images.xcassets */; };
 		CC3921711A5AE78B00BFC1B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC39216F1A5AE78B00BFC1B3 /* LaunchScreen.xib */; };
 		CC39217D1A5AE78B00BFC1B3 /* ZabakKarelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39217C1A5AE78B00BFC1B3 /* ZabakKarelTests.swift */; };
+		CC6692351A76848A00D3956A /* GameStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6692341A76848A00D3956A /* GameStart.swift */; };
+		CCD499A41A75973B009C8406 /* Bubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD499A31A75973B009C8406 /* Bubbles.swift */; };
+		CCDF64281A767BFB008C907B /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDF64271A767BFB008C907B /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC08E2AF1A5AE84B000B8A15 /* Karel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Karel.swift; sourceTree = "<group>"; };
+		CC08E2B11A5AE858000B8A15 /* zabak.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = zabak.atlas; sourceTree = "<group>"; };
+		CC08E2B31A5AE863000B8A15 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		CC08E2B51A5AE887000B8A15 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		CC08E2B81A5AE8AD000B8A15 /* smb2_jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smb2_jump.wav; sourceTree = "<group>"; };
 		CC39215D1A5AE78B00BFC1B3 /* ZabakKarel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZabakKarel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3921611A5AE78B00BFC1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3921621A5AE78B00BFC1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +53,9 @@
 		CC3921761A5AE78B00BFC1B3 /* ZabakKarelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZabakKarelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC39217B1A5AE78B00BFC1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC39217C1A5AE78B00BFC1B3 /* ZabakKarelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZabakKarelTests.swift; sourceTree = "<group>"; };
+		CC6692341A76848A00D3956A /* GameStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameStart.swift; path = ../GameStart.swift; sourceTree = "<group>"; };
+		CCD499A31A75973B009C8406 /* Bubbles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubbles.swift; sourceTree = "<group>"; };
+		CCDF64271A767BFB008C907B /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +97,20 @@
 		CC39215F1A5AE78B00BFC1B3 /* ZabakKarel */ = {
 			isa = PBXGroup;
 			children = (
-				CC3921621A5AE78B00BFC1B3 /* AppDelegate.swift */,
-				CC3921641A5AE78B00BFC1B3 /* GameScene.sks */,
 				CC3921661A5AE78B00BFC1B3 /* GameScene.swift */,
+				CC6692341A76848A00D3956A /* GameStart.swift */,
+				CC08E2B51A5AE887000B8A15 /* GameOverScene.swift */,
+				CC08E2AF1A5AE84B000B8A15 /* Karel.swift */,
+				CC08E2B31A5AE863000B8A15 /* Platform.swift */,
+				CCD499A31A75973B009C8406 /* Bubbles.swift */,
+				CC08E2B11A5AE858000B8A15 /* zabak.atlas */,
+				CC39216D1A5AE78B00BFC1B3 /* Images.xcassets */,
+				CC3921621A5AE78B00BFC1B3 /* AppDelegate.swift */,
+				CCDF64271A767BFB008C907B /* music.mp3 */,
+				CC08E2B81A5AE8AD000B8A15 /* smb2_jump.wav */,
+				CC3921641A5AE78B00BFC1B3 /* GameScene.sks */,
 				CC3921681A5AE78B00BFC1B3 /* GameViewController.swift */,
 				CC39216A1A5AE78B00BFC1B3 /* Main.storyboard */,
-				CC39216D1A5AE78B00BFC1B3 /* Images.xcassets */,
 				CC39216F1A5AE78B00BFC1B3 /* LaunchScreen.xib */,
 				CC3921601A5AE78B00BFC1B3 /* Supporting Files */,
 			);
@@ -201,7 +225,10 @@
 				CC3921711A5AE78B00BFC1B3 /* LaunchScreen.xib in Resources */,
 				CC39216E1A5AE78B00BFC1B3 /* Images.xcassets in Resources */,
 				CC3921651A5AE78B00BFC1B3 /* GameScene.sks in Resources */,
+				CC08E2B21A5AE858000B8A15 /* zabak.atlas in Resources */,
 				CC39216C1A5AE78B00BFC1B3 /* Main.storyboard in Resources */,
+				CCDF64281A767BFB008C907B /* music.mp3 in Resources */,
+				CC08E2BA1A5AE8AD000B8A15 /* smb2_jump.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC08E2B41A5AE863000B8A15 /* Platform.swift in Sources */,
 				CC3921671A5AE78B00BFC1B3 /* GameScene.swift in Sources */,
+				CC6692351A76848A00D3956A /* GameStart.swift in Sources */,
+				CCD499A41A75973B009C8406 /* Bubbles.swift in Sources */,
+				CC08E2B01A5AE84B000B8A15 /* Karel.swift in Sources */,
 				CC3921691A5AE78B00BFC1B3 /* GameViewController.swift in Sources */,
+				CC08E2B61A5AE887000B8A15 /* GameOverScene.swift in Sources */,
 				CC3921631A5AE78B00BFC1B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +445,7 @@
 				CC3921821A5AE78B00BFC1B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3921831A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "ZabakKarelTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +454,7 @@
 				CC3921851A5AE78B00BFC1B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

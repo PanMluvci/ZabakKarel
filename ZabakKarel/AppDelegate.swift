@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ZabakKarel
 //
-//  Created by Josef Antoni on 05.01.15.
-//  Copyright (c) 2015 Josef Antoni. All rights reserved.
+//  Created by Josef Antoni on 05.11.14.
+//  Copyright (c) 2014 Josef Antoni. All rights reserved.
 //
 
 import UIKit
