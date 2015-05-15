@@ -27,18 +27,21 @@ class GameOverScene: SKScene {
         label.fontColor = SKColor.blackColor()
         label.position = CGPoint(x: size.width/2, y: size.height/1.4)
         self.backgroundColor = UIColor(red: 151/255, green: 186/255, blue: 255/255, alpha: 1.0)
+        label.fontColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
         addChild(label)
         
         label1.text = "Bublinky: " + String(skore)
         label1.fontSize = 40
         label1.fontColor = SKColor.blackColor()
         label1.position = CGPoint(x: size.width/2, y: size.height/2)
+        label1.fontColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
         addChild(label1)
         
         label2.text = "Tapni pro nový start hry."
         label2.fontSize = 20
         label2.fontColor = SKColor.blackColor()
         label2.position = CGPoint(x: size.width/2, y: size.height/3)
+        label2.fontColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
         addChild(label2)
         
         

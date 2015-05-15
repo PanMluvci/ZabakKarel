@@ -16,28 +16,19 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         let menuImage = SKSpriteNode(imageNamed: "title")
         menuImage.setScale(0.65)
-        
-        //menuImage.size.height = self.size.height
         menuImage.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
-        
         self.addChild(menuImage)
-        
         backgroundColor = SKColor.whiteColor()
-        var message = "Tapni pro start :-)"
-        
+
         self.backgroundColor = UIColor(red: 151/255, green: 186/255, blue: 255/255, alpha: 1.0)
         let label = SKLabelNode(fontNamed: "Chalkduster")
-        label.text = message
+        label.text = "Tapni pro start :-)"
         label.fontSize = 40
         label.fontColor = SKColor.blackColor()
         label.position = CGPoint(x: size.width/2, y: size.height/5.5)
         addChild(label)
         
-        
-        
     }
-
-    
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         runAction(SKAction.sequence([

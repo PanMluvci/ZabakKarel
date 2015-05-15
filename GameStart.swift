@@ -163,7 +163,7 @@ class GameStart: SKScene, SKPhysicsContactDelegate {
     }
     
     func spawnBubblesBot(){
-        bubbleBot = Bubbles(obrazekNazev: "bubble2")
+        bubbleBot = Bubbles(obrazekNazev: "bubble")
         self.addChild(bubbleBot!)
         bubbleBot?.position = CGPointMake(self.frame.size.width + (self.frame.size.width * -1.1), self.frame.size.height * 0.47)
         bubbleBot?.runAction(bubbleMoveAndRemoveBot)
