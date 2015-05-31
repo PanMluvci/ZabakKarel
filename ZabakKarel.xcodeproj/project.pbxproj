@@ -41,7 +41,7 @@
 		CC08E2B31A5AE863000B8A15 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		CC08E2B51A5AE887000B8A15 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		CC08E2B81A5AE8AD000B8A15 /* smb2_jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smb2_jump.wav; sourceTree = "<group>"; };
-		CC39215D1A5AE78B00BFC1B3 /* Žabák Karel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Žabák Karel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC39215D1A5AE78B00BFC1B3 /* ZabakKarel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZabakKarel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3921611A5AE78B00BFC1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3921621A5AE78B00BFC1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3921641A5AE78B00BFC1B3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		CC39216B1A5AE78B00BFC1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC39216D1A5AE78B00BFC1B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC3921701A5AE78B00BFC1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CC3921761A5AE78B00BFC1B3 /* Žabák KarelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Žabák KarelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3921761A5AE78B00BFC1B3 /* ZabakKarelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZabakKarelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC39217B1A5AE78B00BFC1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC39217C1A5AE78B00BFC1B3 /* ZabakKarelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZabakKarelTests.swift; sourceTree = "<group>"; };
 		CC6692341A76848A00D3956A /* GameStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameStart.swift; path = ../GameStart.swift; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		CC39215E1A5AE78B00BFC1B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC39215D1A5AE78B00BFC1B3 /* Žabák Karel.app */,
-				CC3921761A5AE78B00BFC1B3 /* Žabák KarelTests.xctest */,
+				CC39215D1A5AE78B00BFC1B3 /* ZabakKarel.app */,
+				CC3921761A5AE78B00BFC1B3 /* ZabakKarelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC39215C1A5AE78B00BFC1B3 /* Žabák Karel */ = {
+		CC39215C1A5AE78B00BFC1B3 /* ZabakKarel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC3921801A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "Žabák Karel" */;
+			buildConfigurationList = CC3921801A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "ZabakKarel" */;
 			buildPhases = (
 				CC3921591A5AE78B00BFC1B3 /* Sources */,
 				CC39215A1A5AE78B00BFC1B3 /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = "Žabák Karel";
+			name = ZabakKarel;
 			productName = ZabakKarel;
-			productReference = CC39215D1A5AE78B00BFC1B3 /* Žabák Karel.app */;
+			productReference = CC39215D1A5AE78B00BFC1B3 /* ZabakKarel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CC3921751A5AE78B00BFC1B3 /* Žabák KarelTests */ = {
+		CC3921751A5AE78B00BFC1B3 /* ZabakKarelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC3921831A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "Žabák KarelTests" */;
+			buildConfigurationList = CC3921831A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "ZabakKarelTests" */;
 			buildPhases = (
 				CC3921721A5AE78B00BFC1B3 /* Sources */,
 				CC3921731A5AE78B00BFC1B3 /* Frameworks */,
@@ -175,9 +175,9 @@
 			dependencies = (
 				CC3921781A5AE78B00BFC1B3 /* PBXTargetDependency */,
 			);
-			name = "Žabák KarelTests";
+			name = ZabakKarelTests;
 			productName = ZabakKarelTests;
-			productReference = CC3921761A5AE78B00BFC1B3 /* Žabák KarelTests.xctest */;
+			productReference = CC3921761A5AE78B00BFC1B3 /* ZabakKarelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC3921581A5AE78A00BFC1B3 /* Build configuration list for PBXProject "Žabák Karel" */;
+			buildConfigurationList = CC3921581A5AE78A00BFC1B3 /* Build configuration list for PBXProject "ZabakKarel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,8 +211,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC39215C1A5AE78B00BFC1B3 /* Žabák Karel */,
-				CC3921751A5AE78B00BFC1B3 /* Žabák KarelTests */,
+				CC39215C1A5AE78B00BFC1B3 /* ZabakKarel */,
+				CC3921751A5AE78B00BFC1B3 /* ZabakKarelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +270,7 @@
 /* Begin PBXTargetDependency section */
 		CC3921781A5AE78B00BFC1B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC39215C1A5AE78B00BFC1B3 /* Žabák Karel */;
+			target = CC39215C1A5AE78B00BFC1B3 /* ZabakKarel */;
 			targetProxy = CC3921771A5AE78B00BFC1B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,7 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZabakKarel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Žabák Karel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -388,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZabakKarel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Žabák Karel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -406,8 +406,8 @@
 				);
 				INFOPLIST_FILE = ZabakKarelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Žabák KarelTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Žabák Karel.app/Žabák Karel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZabakKarel.app/ZabakKarel";
 			};
 			name = Debug;
 		};
@@ -421,15 +421,15 @@
 				);
 				INFOPLIST_FILE = ZabakKarelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Žabák KarelTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Žabák Karel.app/Žabák Karel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZabakKarel.app/ZabakKarel";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC3921581A5AE78A00BFC1B3 /* Build configuration list for PBXProject "Žabák Karel" */ = {
+		CC3921581A5AE78A00BFC1B3 /* Build configuration list for PBXProject "ZabakKarel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC39217E1A5AE78B00BFC1B3 /* Debug */,
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC3921801A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "Žabák Karel" */ = {
+		CC3921801A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "ZabakKarel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC3921811A5AE78B00BFC1B3 /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC3921831A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "Žabák KarelTests" */ = {
+		CC3921831A5AE78B00BFC1B3 /* Build configuration list for PBXNativeTarget "ZabakKarelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC3921841A5AE78B00BFC1B3 /* Debug */,

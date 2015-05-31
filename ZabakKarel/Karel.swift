@@ -15,11 +15,11 @@ class Karel: SKSpriteNode {
     var karelTexture = SKTexture(imageNamed: obrazekNazev)
     super.init (texture: karelTexture, color: nil, size: karelTexture.size());
     self.physicsBody = SKPhysicsBody(texture: karelTexture, size: self.size)
-    self.physicsBody?.usesPreciseCollisionDetection = true
+    
     //self.physicsBody = SKPhysicsBody(circleOfRadius: self.size.height / 2)
 
     self.physicsBody?.allowsRotation = false
-
+    self.physicsBody?.usesPreciseCollisionDetection = true
     }
     /**
     *   Metoda pro skok Karla, jeho animace a zvuk.
@@ -32,7 +32,7 @@ class Karel: SKSpriteNode {
             atlas.textureNamed("zabak2"),
             atlas.textureNamed("zabak3"),
             ], timePerFrame: 0.2)
-        self.physicsBody?.usesPreciseCollisionDetection = true
+        
         self.runAction(anim)
         self.xScale = karelTurn;
         runAction(SKAction.playSoundFileNamed("smb2_jump.wav", waitForCompletion: false))
